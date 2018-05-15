@@ -15,30 +15,27 @@ function whatCanIDrink(age) {
 }
 
 
-
-
-
-// function fizzBuzz(num) {
-//     if (typeof(num) == "number") {
-//         if (num % 3 == 0 && num % 5 == 0) {
-//             return "FizzBuzz"; 
-//         } else if (num % 3 == 0 && num % 7 == 0) {
-//             return "FizzPop";  
-//         } else if (num % 5 == 0 && num % 7 == 0) {
-//             return "BuzzPop";     
-//         } else if (num % 3 == 0){
-//             return "Fizz";
-//         } else if (num % 5 == 0) {
-//             return "Buzz";
-//         } else if (num % 7 == 0) {
-//             return "Pop";  
-//         } else {
-//             return num;
-//         }
-//     } else {
-//         alert("Not a number!")
-//     }
-// }
+function fizzBuzz(num) {
+    if (typeof(num) == "number") {
+        if (num % 3 == 0 && num % 5 == 0) {
+            return "FizzBuzz"; 
+        } else if (num % 3 == 0 && num % 7 == 0) {
+            return "FizzPop";  
+        } else if (num % 5 == 0 && num % 7 == 0) {
+            return "BuzzPop";     
+        } else if (num % 3 == 0){
+            return "Fizz";
+        } else if (num % 5 == 0) {
+            return "Buzz";
+        } else if (num % 7 == 0) {
+            return "Pop";  
+        } else {
+            return num;
+        }
+    } else {
+        alert("Not a number!")
+    }
+}
 
    
 
@@ -50,8 +47,8 @@ function whatCanIDrink(age) {
 //   }
 
 
-function fizzBuzz(i){
-    let f = i % 3 == 0, b = i % 5 == 0;
-    return f ? b ? "FizzBuzz" : "Fizz" : b ? "Buzz" : i;
-}
+// function fizzBuzz(i){
+//     let f = i % 3 == 0, b = i % 5 == 0;
+//     return f ? b ? "FizzBuzz" : "Fizz" : b ? "Buzz" : i;
+// }
 
